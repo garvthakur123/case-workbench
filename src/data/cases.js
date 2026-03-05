@@ -1,0 +1,36 @@
+export const mockCases = [
+  {
+    id: "CA-10241",
+    title: "Billing check for inpatient case",
+    status: "IN_REVIEW",
+    priority: "HIGH",
+    assignee: "Garv",
+    updatedAt: "2026-03-04T10:20:00.000Z",
+    note: "Verify DRG code mapping and missing documents.",
+  },
+  {
+    id: "CA-10242",
+    title: "Missing discharge summary document",
+    status: "NEEDS_INFO",
+    priority: "MEDIUM",
+    assignee: "Anubhuti",
+    updatedAt: "2026-03-03T14:05:00.000Z",
+    note: "",
+  },
+  {
+    id: "CA-10243",
+    title: "New outpatient case ingestion",
+    status: "NEW",
+    priority: "LOW",
+    assignee: "Unassigned",
+    updatedAt: "2026-03-05T08:12:00.000Z",
+  },
+  {
+    id: "CA-10244",
+    title: "Finalize reimbursement decision",
+    status: "DONE",
+    priority: "HIGH",
+    assignee: "Team",
+    updatedAt: "2026-02-28T17:45:00.000Z",
+  },
+];
