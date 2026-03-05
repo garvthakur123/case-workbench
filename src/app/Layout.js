@@ -15,7 +15,6 @@ export default function Layout() {
         <Link to="/cases" style={{ textDecoration: "none", color: "inherit" }}>
           <strong>Case Workbench</strong>
         </Link>
-        <span style={{ color: "#666", fontSize: 14 }}>Frontend MVP</span>
       </header>
 
       <main style={{ padding: 16 }}>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import CaseListPage from "../features/cases/CaseListPage";
-import CaseDetailsPage from "../features/cases/CaseDetailPage";
+import CaseDetailsPage from "../features/cases/CaseDetailsPage";
 
 export default function AppRouter() {
   return (
